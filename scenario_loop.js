@@ -18,8 +18,8 @@ var ACC = 999
 var DECEL_PROB = 0
 var VEHS = []
 var VEH_IDX = 0
-for(let i=0; i<10; i++){
-    VEHS.push(new Vehicle(i*1, 0, LINKS[0]))
+for (let i = 0; i < 10; i++) {
+    VEHS.push(new Vehicle(i * 1, 0, LINKS[0]))
 }
 
 var SPAWNERS = []

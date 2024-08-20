@@ -27,17 +27,17 @@ SPAWNERS.push(new Spawner(LINKS[0], 0.1, 1))
 var REGULATORS = []
 
 var QKPLOTS = []
-QKPLOTS.push(new QKplot(40+40, 270, 100, 100, LINKS[0], 10, 1, 0))
-QKPLOTS.push(new QKplot(230+40, 270, 100, 100, LINKS[0], 40, 1, 0))
-QKPLOTS.push(new QKplot(420+40, 270, 100, 100, LINKS[0], 60, 1, 0))
-QKPLOTS.push(new QKplot(610+40, 270, 100, 100, LINKS[0], 90, 1, 0))
+QKPLOTS.push(new QKplot(40 + 40, 270, 100, 100, LINKS[0], 10, 1, 0))
+QKPLOTS.push(new QKplot(230 + 40, 270, 100, 100, LINKS[0], 40, 1, 0))
+QKPLOTS.push(new QKplot(420 + 40, 270, 100, 100, LINKS[0], 60, 1, 0))
+QKPLOTS.push(new QKplot(610 + 40, 270, 100, 100, LINKS[0], 90, 1, 0))
 
 var TSPLOTS = []
 TSPLOTS.push(new TSplot(LINKS[0]))
 
 var CUMPLOTS = []
 //CUMPLOTS.push(new Cumplot(LINKS[0], [75, 5, 5], ["bottleneck", "upstream end", "upstream end (shifted)"], ["#ff0000", "#0000ff", "#aaaaff"], [0, 0, 70/VMAX]))
-CUMPLOTS.push(new Cumplot(LINKS[0], [5, 5, 75], ["upstream end", "upstream end (shifted)", "bottleneck"], ["#0000ff", "#aaaaff", "#ff0000"], [0, 70/VMAX, 0]))
+CUMPLOTS.push(new Cumplot(LINKS[0], [5, 5, 75], ["upstream end", "upstream end (shifted)", "bottleneck"], ["#0000ff", "#aaaaff", "#ff0000"], [0, 70 / VMAX, 0]))
 
 let count = 0
 let prevTime = 0
